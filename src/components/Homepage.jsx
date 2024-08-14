@@ -13,7 +13,7 @@ import proposal from "../assets/proposal.jpg";
 import couple from "../assets/couple.jpg";
 import cple from "../assets/heBlessedHaven.jpg";
 import BlessedHaven from "../assets/wife.jpg";
-import blessed from "../assets/Blessed.jpg";
+import blessed from "../assets/blessed.jpg";
 import DonationSection from "./Donation";
 // import outing from "../assets/outing.jpg";
 
