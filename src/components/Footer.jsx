@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white py-6">
       <div className="container mx-auto text-center">
         <p>&copy; 2024 Our Wedding. All rights reserved.</p>
-        <div className="mt-4 space-x-4">
+        {/* <div className="mt-4 space-x-4">
           <a href="#" className="hover:underline">
             Facebook
           </a>
@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="#" className="hover:underline">
             Twitter
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
