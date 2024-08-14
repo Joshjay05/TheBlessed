@@ -9,7 +9,7 @@ import Bless from "../assets/Bless.jpg";
 import proposal from "../assets/proposal.jpg";
 import couple from "../assets/couple.jpg";
 import cple from "../assets/heBlessedHaven.jpg";
-import BlessedHaven from "../assets/BlessedHaven.jpg";
+import BlessedHaven from "../assets/blessedhaven.jpg";
 import blessed from "../assets/Blessed.jpg";
 
 import PropTypes from "prop-types";
