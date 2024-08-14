@@ -15,6 +15,21 @@ export const theme = {
       "2xl": "1400px",
     },
   },
+  screens: {
+    md: { min: "640px", max: "1024px" },
+    // => @media (max-width: 767px) { ... }
+
+    sm: { max: "639px" },
+
+    lg: { min: "1025px" },
+    // => @media (min-width: 1024px) { ... }
+
+    xl: "1280px",
+    // => @media (min-width: 1280px) { ... }
+
+    "2xl": "1536px",
+    // => @media (min-width: 1536px) { ... }
+  },
   extend: {
     keyframes: {
       "accordion-down": {

@@ -11,7 +11,11 @@ import TheBlessedHaven from "../assets/TheBlessedHaven.jpg";
 import Bless from "../assets/Bless.jpg";
 import proposal from "../assets/proposal.jpg";
 import couple from "../assets/couple.jpg";
-import cple from "../assets/cple.jpg";
+import cple from "../assets/heBlessedHaven.jpg";
+import BlessedHaven from "../assets/BlessedHaven.jpg";
+import blessed from "../assets/Blessed.jpg";
+
+import DonationSection from "./Donation";
 // import outing from "../assets/outing.jpg";
 
 const HomePage = () => {
@@ -46,6 +50,14 @@ const HomePage = () => {
       id: 7,
       image: cple,
     },
+    {
+      id: 8,
+      image: BlessedHaven,
+    },
+    {
+      id: 9,
+      image: blessed,
+    },
   ];
 
   return (
@@ -64,6 +76,7 @@ const HomePage = () => {
           </h2>
           <Gallery images={galleryImages} />
         </section>
+        <DonationSection />
       </div>
     </div>
   );

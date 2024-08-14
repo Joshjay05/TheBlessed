@@ -2,6 +2,8 @@
 // src/pages/AboutUsPage.jsx
 
 // import React from "react";
+import cple from "../assets/cple.jpg";
+import proposal from "../assets/proposal.jpg";
 
 const AboutUsPage = () => {
   return (
@@ -88,19 +90,49 @@ const AboutUsPage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <img
-            src="https://example.com/photo1.jpg"
+            src={cple}
             alt="Our Journey"
-            className="w-full h-64 object-cover rounded-md shadow-md"
+            className="w-full h-auto object-cover rounded-md shadow-md"
           />
         </div>
         <div>
           <img
-            src="https://example.com/photo2.jpg"
+            src={proposal}
             alt="Our Journey"
-            className="w-full h-64 object-cover rounded-md shadow-md"
+            className="w-full h-auto object-center bg-center rounded-md shadow-md"
           />
         </div>
       </div>
+
+      <p>
+        HOW IT ALL STARTED(Christianah's Version) I was out of town and not
+        physically present in church, I saw his name among those added to my
+        department WhatsApp page as one of the new stewards posted to the
+        department. A week later, I saw him physically at our departmental vigil
+        and we were assigned to write mail copies for the church anniversary
+        conference, we then realized that we were both medical practitioners so
+        we talked on topics bordering medicine, business and writing. A month
+        later, he told me he was preparing for exams and he needed someone to
+        put him on his toes, since I didn't have much on my hands, I obliged him
+        and became his accountability partner. We drafted a weekly reading
+        timetable and I dropped a daily check-up call till he was done with the
+        exams. A few weeks into being his accountability partner, I saw some of
+        the characteristics of the Man-God had told me he was bringing my way in
+        him, like Mary, I kept them in my heart and went further to cut
+        connections with him immediately after he was done with his exams😅😅.
+        Sometimes later, I posted a campaign to expand my clothing brand's
+        followers base on Instagram and he offered to help, he ensured we
+        surpassed our target for the campaign. This got us talking again and via
+        our conversations, I saw him for who he is. We had our first date
+        several months later but in the weeks leading to that date, I admired
+        his deep reverence for God, his love for the people, his level of
+        intelligence and retention, his sense of purpose, his degree of
+        accountability, his brutal honesty, his culinary skills and of course,
+        his looks and fashion sense. Five months after our first physical
+        meeting, he asked me to marry him and yes, it's been a transformative
+        experience for me and I am excited to be taking a step to forever with
+        the man I truly love, my PG😊.
+      </p>
     </div>
   );
 };
