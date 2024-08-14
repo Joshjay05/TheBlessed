@@ -87,19 +87,19 @@ const AboutUsPage = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-8">
         <div>
           <img
             src={cple}
             alt="Our Journey"
-            className="w-full h-auto object-cover rounded-md shadow-md"
+            className="w-full  h-auto object-cover rounded-md shadow-md"
           />
         </div>
         <div>
           <img
             src={proposal}
             alt="Our Journey"
-            className="w-full h-auto object-center bg-center rounded-md shadow-md"
+            className="w-full  h-auto object-center bg-center rounded-md shadow-md"
           />
         </div>
       </div>
