@@ -15,6 +15,7 @@ import cple from "../assets/heBlessedHaven.jpg";
 import BlessedHaven from "../assets/wife.jpg";
 import blessed from "../assets/blessed.jpg";
 import DonationSection from "./Donation";
+import AboutUsPage from "./AboutUs";
 // import outing from "../assets/outing.jpg";
 
 const HomePage = () => {
@@ -64,13 +65,20 @@ const HomePage = () => {
       <HeroSection />
       <div className="container mx-auto py-16">
         <section className="mb-16">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+          {/* <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+            About us
+          </h2> */}
+          <AboutUsPage />
+          {/* <EventDetails /> */}
+        </section>
+        <section className="mb-16">
+          {/* <h2 className="text-4xl font-bold text-centertext-[#8d0102] mb-8">
             Event Details
-          </h2>
+          </h2> */}
           <EventDetails />
         </section>
         <section>
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+          <h2 className="text-4xl font-bold text-center text-[#8d0102] mb-8">
             Our Gallery
           </h2>
           <Gallery images={galleryImages} />

@@ -10,11 +10,11 @@ const Header = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <header className="bg-white shadow-md py-4 fixed w-full top-0 z-30">
-      <nav className="container mx-auto flex items-center justify-between px-6 md:px-12">
+    <header className="bg-[#8d0102] text-[#fed703] shadow-md py-4 fixed w-full top-0 z-30">
+      <nav className="container   mx-auto flex items-center justify-between px-6 md:px-12">
         <Link to="/">
           {/* <img src={logo} alt="logo" className="rounded-full w-10" /> */}
-          <h1 className="text-2xl font-bold text-gray-800">THEBLESSEDHAVEN</h1>
+          <h1 className="text-2xl font-bold text-[#fed703]">THEBLESSEDHAVEN</h1>
         </Link>
 
         {/* Desktop Menu */}
@@ -22,7 +22,7 @@ const Header = () => {
           <li>
             <Link
               to="/"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+              className="text-[#fed703] hover:text-white transition-colors duration-300"
             >
               Home
             </Link>
@@ -30,7 +30,7 @@ const Header = () => {
           <li>
             <Link
               to="/about-us"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+              className="text-[#fed703] hover:text-white transition-colors duration-300"
             >
               About Us
             </Link>
@@ -38,7 +38,7 @@ const Header = () => {
           <li>
             <a
               href="#donation"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+              className="text-[#fed703] hover:text-white transition-colors duration-300"
             >
               Donation
             </a>
@@ -46,7 +46,7 @@ const Header = () => {
           <li>
             <Link
               to="/gallery"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+              className="text-[#fed703] hover:text-white transition-colors duration-300"
             >
               Gallery
             </Link>
@@ -54,7 +54,7 @@ const Header = () => {
           <li>
             <Link
               to="/event-details"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+              className="text-[#fed703] hover:text-white transition-colors duration-300"
             >
               Event Details
             </Link>
@@ -64,7 +64,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
-          className="lg:hidden text-gray-600 hover:text-gray-900 focus:outline-none"
+          className="lg:hidden text-[#fed703] hover:text-white focus:outline-none"
         >
           {showMenu ? (
             <FaTimes className="text-2xl" />
@@ -89,7 +89,7 @@ const Header = () => {
         >
           <button
             onClick={toggleMenu}
-            className="absolute top-4 right-4 text-gray-600 hover:text-gray-900 text-2xl"
+            className="absolute top-4 right-4 text-[#fed703] hover:text-white text-2xl"
           >
             <FaTimes />
           </button>
@@ -97,7 +97,7 @@ const Header = () => {
             <li>
               <Link
                 to="/"
-                className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+                className="text-[#fed703] hover:text-white transition-colors duration-300"
                 onClick={toggleMenu}
               >
                 Home
@@ -106,7 +106,7 @@ const Header = () => {
             <li>
               <Link
                 to="/about-us"
-                className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+                className="text-[#fed703] hover:text-white transition-colors duration-300"
                 onClick={toggleMenu}
               >
                 About Us
@@ -115,7 +115,7 @@ const Header = () => {
             <Link to="/">
               <a
                 href="#donation"
-                className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+                className="text-[#fed703] hover:text-white transition-colors duration-300"
                 onClick={toggleMenu}
               >
                 Donation
@@ -124,7 +124,7 @@ const Header = () => {
             <li>
               <Link
                 to="/gallery"
-                className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+                className="text-[#fed703] hover:text-white transition-colors duration-300"
                 onClick={toggleMenu}
               >
                 Gallery
@@ -133,7 +133,7 @@ const Header = () => {
             <li>
               <Link
                 to="/event-details"
-                className="text-gray-600 hover:text-gray-900 transition-colors duration-300"
+                className="text-[#fed703] hover:text-gray-900 transition-colors duration-300"
                 onClick={toggleMenu}
               >
                 Event Details
