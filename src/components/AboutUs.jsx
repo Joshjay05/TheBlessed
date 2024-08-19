@@ -8,93 +8,29 @@ const AboutUsPage = () => {
   const [showMoreChristianah, setShowMoreChristianah] = useState(false);
 
   const isaacText = `
-    “As part of the preparation from the department for the coming
-    conference, let Miss Christianah and Mr Isaac handle the email to be
-    sent to all the first-timers and new members”. These were the very
-    words of our HOD at the vigil where I first met my Christianah. I
-    did not meet her until two months after I relocated to Ibadan. My
-    first time meeting Christianah was in church, not in a church
-    service but a departmental vigil. We were preparing for the apex
-    meeting of our church. We were both assigned to be in charge of
-    sending out invites for the meeting via e-mails. So I can say that
-    it was service in God’s house that brought us together. God is the
-    absolute best in crafting love stories, you know?!
-    
-    I forgot to tell you that I did not save her number nor
-    did I reach out to her personally to follow up on the assignment (my
-    bad). I merely went doing “my thing”. I can remember our first
-    conversation on WhatsApp, it was strictly business and it continued
-    like that for days.
-    
-    Fast forward to the month after our conference, this beautiful lady
-    walked up to me one day after service. “Are you fine? You looked so
-    disturbed and you are not in your usual high spirit!” These were
-    Christianah’s words to me that day. I rarely open up to people on
-    personal matters but she kept pestering and when I saw her
-    genuineness, I opened up to her. I had a long list of assessments
-    and exams those days and I was already overwhelmed by the workload
-    as I had little or no time to prepare for them again. She offered to
-    assist to help me get ready for the assessments and exams. I
-    initially laughed at the idea in my mind but she amazed me with her
-    innovative approach by crafting out milestones for me and monitoring
-    my progress.
-    
-    Her new supervisory role (lol) got us talking a lot, especially
-    during the day and early hours of the night (yeah, she monitors my
-    studying at night). Little did she know that as she was monitoring
-    my studying, I was carefully studying her too and assessing her
-    values, her mindset about life, her disposition to certain beliefs
-    and her conviction about life. Just like the lock and key theory of
-    drugs and drug receptors, she fits in so well into my receptors for
-    my life partner.
-    
-    As a wise builder, our first date did not happen immediately until
-    after four months she took up the "supervisory role". We had
-    intelligent conversations. From this first hangout, I knew that I
-    had reached a peak plasma concentration and I was most likely going
-    to marry her. She was so detailed, expressive, courteous and highly
-    cerebral. Her deep-thinking ability, genteel communication and
-    intelligence were my key takeaways. I saw what she communicated and
-    beyond what she communicated as her purpose and passion- the fire in
-    her eyes, the hunger for excellence and success in her soul, her
-    pizzazz, her brio and oomph… all simply amazing! Oh my, I am in
-    love.
-    
-    From that point going forward, I considered trusting the matter into
-    God’s hands, the One who is omnipotent, all-wise and all-knowing.
-    With prayers, guidance and confirmations from our spiritual parents,
-    earthly parents, mentors and guardians, we are here today and we are
-    eager to begin our journey forever.
+    During a departmental vigil in preparation for our church’s peak conference, our HOD assigned Christianah and me to manage the emails for new members. It was at this vigil that I first met Christianah.
+
+Our initial interaction was strictly business, focusing on the task at hand. I didn’t even save her number or follow up beyond the assignment. A month after the conference, Christianah approached me after a service, noticing that I seemed troubled. Despite my initial reluctance, I opened up to her about the stress I was under from exams and assignments. She offered to help, and her innovative approach to breaking down my workload impressed me.
+
+God is the absolute best in crafting beautiful love stories, you know! As she monitored my study progress, we began talking more frequently. I found myself not just studying but also observing her character, values, and outlook on life. She fit perfectly into what I envisioned in a life partner, much like a drug perfectly fitting into its receptor.
+
+Our first date came months after she took up her " accountability and supervisory role." It was then that I realized she was everything I had been searching for—intelligent, detailed, and passionate. Her deep thinking, genteel, and drive for excellence stood out. I saw what she communicated and even beyond what she communicated as her purpose and passion- the fire in her eyes, the hunger for excellence and success in her soul, her pizzazz, her brio and oomph...all simply amazing! I knew then that I had reached the "peak plasma concentration" and was ready to commit.
+
+With prayers and guidance from our spiritual leaders, parents, and mentors, we’re now eagerly beginning our journey together.
   `;
 
   const christianahText = `
-    I was out of town and not physically present in church, I saw his name
-    among those added to my department WhatsApp page as one of the new
-    stewards posted to the department. A week later, I saw him physically
-    at our departmental vigil and we were assigned to write mail copies
-    for the church anniversary conference, we then realized that we were
-    both medical practitioners so we talked on topics bordering medicine,
-    business and writing. A month later, he told me he was preparing for
-    exams and he needed someone to put him on his toes, since I didn't
-    have much on my hands, I obliged him and became his accountability
-    partner. We drafted a weekly reading timetable and I dropped a daily
-    check-up call till he was done with the exams. A few weeks into being
-    his accountability partner, I saw some of the characteristics of the
-    Man-God had told me he was bringing my way in him, like Mary, I kept
-    them in my heart and went further to cut connections with him
-    immediately after he was done with his exams😅😅. Sometimes later, I
-    posted a campaign to expand my clothing brand's followers base on
-    Instagram and he offered to help, he ensured we surpassed our target
-    for the campaign. This got us talking again and via our conversations,
-    I saw him for who he is. We had our first date several months later
-    but in the weeks leading to that date, I admired his deep reverence
-    for God, his love for the people, his level of intelligence and
-    retention, his sense of purpose, his degree of accountability, his
-    brutal honesty, his culinary skills and of course, his looks and
-    fashion sense. Five months after our first physical meeting, he asked
-    me to marry him and yes, it's been a transformative experience for me
-    and I am excited to be taking a step to forever with the man I truly
-    love, my PG😊.
+    HOW IT ALL STARTED(Christianah's Version)
+
+I was out of town and not physically present in church, I saw his name among those added to my department WhatsApp page as one of the new stewards posted to the department. A week later,  I saw him physically at our departmental vigil and we were assigned to write mail copies for the church anniversary conference, we then realized that we were both medical practitioners so we talked on topics bordering medicine, business and writing.
+
+A month later, he told me he was preparing for exams and he needed someone to put him on his toes, since I didn't have much on my hands, I obliged him and became his accountability partner. We drafted a weekly reading timetable and I dropped a daily check-up call till he was done with the exams. A few weeks into being his accountability partner, I saw some of the characteristics of the Man-God had told me he was bringing my way in him, like Mary, I kept them in my heart and went further to cut connections with him immediately after he was done with his exams😅😅.
+
+Sometimes later, I posted a campaign to expand my clothing brand's followers base on Instagram and he offered to help, he ensured we surpassed our target for the campaign. This got us talking again and via our conversations, I saw him for who he is.
+
+We had our first date several months later but in the weeks leading to that date, I admired his deep reverence for God,  his love for the people, his level of intelligence and retention, his sense of purpose, his degree of accountability, his brutal honesty, his culinary skills and of course, his looks and fashion sense.
+
+Five months after our first physical meeting, he asked me to marry him and yes, it's been a transformative experience for me and I am excited to be taking a step to forever with the man I truly love, my PG😊.
   `;
 
   const renderText = (text, showMore, setShowMore) => {

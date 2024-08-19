@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // src/pages/HomePage.jsx
 
 // import React from "react";
@@ -114,7 +115,27 @@ const HomePage = () => {
           </h2>
           <Gallery images={galleryImages} />
         </section>
-        <DonationSection />
+        <section>
+          <DonationSection />
+          <div className="container mx-auto py-16 px-4 bg-white shadow-md rounded-lg p-6">
+            <h1 className="text-3xl font-bold text-[#8d0102] mb-8">
+              Our Gratitude
+            </h1>
+
+            <p>
+              We cannot quantify the efforts and support we have received from
+              our beloved families, friends and everyone who shared in our
+              celebration, you amazed us in many ways and we do not take all you
+              have done for granted and neither can we forget your goodness to
+              us. For your thoughtfulness in showing up, your amazing gifts in
+              cash and kind, your unapologetic love, your prayers and counsel,
+              you successfully touched us in ways we cannot fathom and you made
+              our day memorable. It is our earnest prayer that the goodness and
+              mercy of God be with you all in Jesus' name. Amen Thank you so
+              much. The Blessed Haven
+            </p>
+          </div>
+        </section>
       </div>
     </div>
   );
