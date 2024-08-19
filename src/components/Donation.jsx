@@ -16,7 +16,7 @@ const DonationSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Naira Account */}
         <div className="bg-white shadow-md rounded-lg p-6">
-          <h3 className="text-2xl font-boldtext-[#8d0102] mb-4">
+          <h3 className="text-2xl font-bold text-[#8d0102] mb-4">
             Naira Account
           </h3>
           <p className="text-lg text-gray-600 mb-2">
