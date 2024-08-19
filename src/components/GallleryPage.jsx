@@ -12,7 +12,7 @@ import cple from "../assets/heBlessedHaven.jpg";
 import BlessedHaven from "../assets/wife.jpg";
 import blessed from "../assets/blessed.jpg";
 import cake from "../assets/cake.jpg";
-import blessedhaven from "../assets/blessedhaven.jpg";
+import blessedhaven from "../assets/blessedhaven.jpeg";
 import FAV from "../assets/FAV.jpg";
 import intro from "../assets/intro.jpg";
 import coupled from "../assets/cple.jpg";
