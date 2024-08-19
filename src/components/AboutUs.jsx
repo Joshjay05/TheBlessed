@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
-// import cple from "../assets/cple.jpg";
-// import proposal from "../assets/proposal.jpg";
 import isaac from "../assets/isaac.jpg";
 import christianah from "../assets/single.jpg";
 
@@ -21,11 +19,13 @@ const AboutUsPage = () => {
     sending out invites for the meeting via e-mails. So I can say that
     it was service in God’s house that brought us together. God is the
     absolute best in crafting love stories, you know?!
+    
     I forgot to tell you that I did not save her number nor
     did I reach out to her personally to follow up on the assignment (my
     bad). I merely went doing “my thing”. I can remember our first
     conversation on WhatsApp, it was strictly business and it continued
     like that for days.
+    
     Fast forward to the month after our conference, this beautiful lady
     walked up to me one day after service. “Are you fine? You looked so
     disturbed and you are not in your usual high spirit!” These were
@@ -38,6 +38,7 @@ const AboutUsPage = () => {
     initially laughed at the idea in my mind but she amazed me with her
     innovative approach by crafting out milestones for me and monitoring
     my progress.
+    
     Her new supervisory role (lol) got us talking a lot, especially
     during the day and early hours of the night (yeah, she monitors my
     studying at night). Little did she know that as she was monitoring
@@ -46,6 +47,7 @@ const AboutUsPage = () => {
     and her conviction about life. Just like the lock and key theory of
     drugs and drug receptors, she fits in so well into my receptors for
     my life partner.
+    
     As a wise builder, our first date did not happen immediately until
     after four months she took up the "supervisory role". We had
     intelligent conversations. From this first hangout, I knew that I
@@ -57,6 +59,7 @@ const AboutUsPage = () => {
     her eyes, the hunger for excellence and success in her soul, her
     pizzazz, her brio and oomph… all simply amazing! Oh my, I am in
     love.
+    
     From that point going forward, I considered trusting the matter into
     God’s hands, the One who is omnipotent, all-wise and all-knowing.
     With prayers, guidance and confirmations from our spiritual parents,
@@ -95,18 +98,37 @@ const AboutUsPage = () => {
   `;
 
   const renderText = (text, showMore, setShowMore) => {
-    const previewText = text.slice(0, 1300);
+    const paragraphs = text
+      .trim()
+      .split("\n")
+      .filter((p) => p); // Split text by line breaks
+    const previewText = paragraphs.slice(0, 4); // Show first 4 paragraphs in preview
+
     return (
       <div className="flex-grow">
-        <p className="leading-[1.5rem] text-base text-justify">
-          {showMore ? text : `${previewText}...`}
-          <button
-            onClick={() => setShowMore(!showMore)}
-            className="text-blue-500 ml-1"
-          >
-            {showMore ? "Read Less" : "Read More"}
-          </button>
-        </p>
+        {showMore
+          ? paragraphs.map((p, index) => (
+              <p
+                key={index}
+                className="leading-[1.5rem] text-base text-justify mb-4"
+              >
+                {p}
+              </p>
+            ))
+          : previewText.map((p, index) => (
+              <p
+                key={index}
+                className="leading-[1.5rem] text-base text-justify mb-4"
+              >
+                {p}
+              </p>
+            ))}
+        <button
+          onClick={() => setShowMore(!showMore)}
+          className="text-blue-500 ml-1"
+        >
+          {showMore ? "Read Less" : "Read More"}
+        </button>
       </div>
     );
   };
@@ -154,8 +176,6 @@ const AboutUsPage = () => {
               className={`h-full w-full object-center rounded-md shadow-md ${
                 showMoreChristianah ? "h-auto" : "h-[50vh]"
               }`}
-              // className={`flex-grow overflow-hidden transition-all duration-300 ease-in-out
-              // }`}
             />
           </div>
         </article>
