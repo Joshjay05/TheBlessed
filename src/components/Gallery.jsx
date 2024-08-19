@@ -114,32 +114,33 @@ import { useEffect } from "react";
 const Gallery = ({ images }) => {
   useEffect(() => {
     const tiles = document.querySelectorAll(".tile");
-    tiles.forEach((tile) => {
-      const randomDelay = Math.random() * 3;
-      tile.style.animationDelay = `${randomDelay}s`;
-    });
+
+    const applyAnimation = () => {
+      tiles.forEach((tile) => {
+        const randomDelay = Math.random() * 20;
+        const randomFadeDuration = 5 + Math.random() * 10;
+        const randomFlipDuration = 6 + Math.random() * 14;
+
+        tile.style.animation = `
+          fadeInOut ${randomFadeDuration}s ease-in-out ${randomDelay}s infinite, 
+          flipTile ${randomFlipDuration}s ease-in-out ${randomDelay}s infinite`;
+      });
+    };
+
+    applyAnimation();
+
+    const intervalId = setInterval(() => {
+      applyAnimation();
+    }, 6000);
+
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 p-4">
-      {images.map((img, index) => (
-        <div
-          key={img.id}
-          className={`tile relative overflow-hidden rounded-md shadow-md ${
-            index % 6 === 0
-              ? "col-span-2 row-span-2"
-              : index % 4 === 0
-                ? "col-span-2 row-span-1"
-                : index % 3 === 0
-                  ? "col-span-1 row-span-2"
-                  : "col-span-1 row-span-1"
-          }`}
-        >
-          <img
-            src={img.image}
-            alt={`Gallery Image ${img.id}`}
-            className="object-cover w-full h-full"
-          />
+    <div className="grid-container">
+      {images.map((img) => (
+        <div key={img.id} className="tile">
+          <img src={img.image} alt={`Gallery Image ${img.id}`} />
         </div>
       ))}
     </div>

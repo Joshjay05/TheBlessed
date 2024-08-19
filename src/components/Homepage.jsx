@@ -13,6 +13,13 @@ import proposal from "../assets/proposal.jpg";
 import couple from "../assets/couple.jpg";
 import cple from "../assets/heBlessedHaven.jpg";
 import BlessedHaven from "../assets/wife.jpg";
+import cake from "../assets/cake.jpg";
+import blessedhaven from "../assets/blessedhaven.jpg";
+import FAV from "../assets/FAV.jpg";
+import intro from "../assets/intro.jpg";
+import coupled from "../assets/cple.jpg";
+import outing from "../assets/outing.jpg";
+
 import blessed from "../assets/blessed.jpg";
 import DonationSection from "./Donation";
 import AboutUsPage from "./AboutUs";
@@ -57,6 +64,30 @@ const HomePage = () => {
     {
       id: 9,
       image: blessed,
+    },
+    {
+      id: 10,
+      image: cake,
+    },
+    {
+      id: 11,
+      image: blessedhaven,
+    },
+    {
+      id: 12,
+      image: FAV,
+    },
+    {
+      id: 13,
+      image: intro,
+    },
+    {
+      id: 14,
+      image: coupled,
+    },
+    {
+      id: 15,
+      image: outing,
     },
   ];
 

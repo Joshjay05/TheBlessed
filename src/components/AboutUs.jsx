@@ -98,7 +98,7 @@ const AboutUsPage = () => {
     const previewText = text.slice(0, 1300);
     return (
       <div className="flex-grow">
-        <p className="leading-[2.5rem] text-base text-justify">
+        <p className="leading-[1.5rem] text-base text-justify">
           {showMore ? text : `${previewText}...`}
           <button
             onClick={() => setShowMore(!showMore)}
