@@ -7,7 +7,7 @@ const EventDetails = () => {
     <div className="bg-gray-100 p-8 rounded-md shadow-md">
       <h2 className="text-3xl font-bold text-[#8d0102] mb-6">Event Details</h2>
       <div className="mb-4">
-        <h3 className="text-xl font-semibold text-gray-700">Ceremony</h3>
+        <h3 className="text-xl font-semibold text-gray-700">Church Wedding</h3>
         <p>Date: September 21, 2024</p>
         <p>Time:10:30am</p>
         <p>Location: Christ Apostolic Church, Oke Ibukun, Ilawe Ekiti</p>
