@@ -83,7 +83,6 @@ Five months after our first physical meeting, he asked me to marry him and yes, 
         </p>
 
         <article className="flex flex-col lg:flex-row gap-4 items-stretch">
-          {renderText(isaacText, showMoreIsaac, setShowMoreIsaac)}
           <div className="lg:w-[30%] flex-shrink-0">
             <img
               src={isaac}
@@ -93,6 +92,7 @@ Five months after our first physical meeting, he asked me to marry him and yes, 
               }`}
             />
           </div>
+          {renderText(isaacText, showMoreIsaac, setShowMoreIsaac)}
         </article>
 
         <p className="text-[#8d0102]">
