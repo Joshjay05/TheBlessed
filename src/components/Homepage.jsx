@@ -135,7 +135,7 @@ const HomePage = () => {
               much.
               <br />
               <br />
-              <b className="text-[#8d0102] text-xl">The Blessed-Haven</b>
+              <em className="">The Blessed-Haven</em>
             </p>
           </div>
         </section>
