@@ -132,7 +132,10 @@ const HomePage = () => {
               you successfully touched us in ways we cannot fathom and you made
               our day memorable. It is our earnest prayer that the goodness and
               mercy of God be with you all in Jesus' name. Amen Thank you so
-              much. The Blessed Haven
+              much.
+              <br />
+              <br />
+              <b className="text-[#8d0102] text-xl">The Blessed-Haven</b>
             </p>
           </div>
         </section>
