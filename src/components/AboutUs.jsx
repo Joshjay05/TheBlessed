@@ -99,7 +99,7 @@ Five months after our first physical meeting, he asked me to marry him and yes, 
           <strong>HOW IT ALL STARTED (Christianah's Version)</strong>
         </p>
 
-        <article className="flex flex-col lg:flex-row gap-4 items-stretch">
+        <article className="flex flex-col-reverse lg:flex-row gap-4 items-stretch">
           {renderText(
             christianahText,
             showMoreChristianah,
