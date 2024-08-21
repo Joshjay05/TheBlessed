@@ -40,7 +40,7 @@ const Header = () => {
               href="#donation"
               className="text-[#fed703] hover:text-white transition-colors duration-300"
             >
-              Donation
+              Give a Gift
             </a>
           </li>
           <li>
@@ -112,24 +112,6 @@ const Header = () => {
                 About Us
               </Link>
             </li>
-            <Link to="/">
-              <a
-                href="#donation"
-                className="text-[#fed703] hover:text-white transition-colors duration-300"
-                onClick={toggleMenu}
-              >
-                Donation
-              </a>
-            </Link>
-            <li>
-              <Link
-                to="/gallery"
-                className="text-[#fed703] hover:text-white transition-colors duration-300"
-                onClick={toggleMenu}
-              >
-                Gallery
-              </Link>
-            </li>
             <li>
               <Link
                 to="/event-details"
@@ -139,6 +121,24 @@ const Header = () => {
                 Event Details
               </Link>
             </li>
+            <li>
+              <Link
+                to="/gallery"
+                className="text-[#fed703] hover:text-white transition-colors duration-300"
+                onClick={toggleMenu}
+              >
+                Gallery
+              </Link>
+            </li>
+            <Link to="/">
+              <a
+                href="#donation"
+                className="text-[#fed703] hover:text-white transition-colors duration-300"
+                onClick={toggleMenu}
+              >
+                Give a Gift
+              </a>
+            </Link>
           </ul>
         </div>
       </nav>
