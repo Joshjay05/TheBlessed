@@ -59,6 +59,14 @@ const Header = () => {
               Event Details
             </Link>
           </li>
+          <li>
+            <a
+              href="#contact"
+              className="text-[#fed703] hover:text-white transition-colors duration-300"
+            >
+              Contact
+            </a>
+          </li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -139,6 +147,14 @@ const Header = () => {
                 Give a Gift
               </a>
             </Link>
+            <li>
+              <a
+                href="#contact"
+                className="text-[#fed703] hover:text-white transition-colors duration-300"
+              >
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
